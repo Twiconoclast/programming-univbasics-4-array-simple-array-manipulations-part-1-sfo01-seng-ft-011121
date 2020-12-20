@@ -18,14 +18,14 @@ def pop_with_args(array, 2)
   return new_arr
 end
 
-def using_shift(Array)
-  return Array.shift
+def using_shift(array)
+  return array.shift
 end
 
-def shift_with_args(Array, 2)
+def shift_with_args(array, 2)
   new_arr = []
   2.times do
-    new_arr << Array.shift
+    new_arr << array.shift
   end
   return new_arr
 end
