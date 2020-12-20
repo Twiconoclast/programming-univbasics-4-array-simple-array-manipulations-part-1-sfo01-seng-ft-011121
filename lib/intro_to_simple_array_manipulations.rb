@@ -15,7 +15,7 @@ def pop_with_args(array)
   2.times do
     new_arr << array.pop
   end
-  return new_arr
+  return new_arr.reverse
 end
 
 def using_shift(array)
